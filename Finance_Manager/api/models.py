@@ -58,3 +58,4 @@ class CreditCardTransaction(models.Model):
 
     def __str__(self):
         return f"{self.credit_card.card_number} - {self.amount} - {self.date}"
+    
